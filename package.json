@@ -1,0 +1,34 @@
+{
+  "name": "typesapi",
+  "version": "1.0.0",
+  "description": "Typescript Node.js API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freitasDavi/types-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Davi Freitas da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freitasDavi/types-api/issues"
+  },
+  "homepage": "https://github.com/freitasDavi/types-api#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.11.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
